@@ -11,29 +11,29 @@ Using LocalStorage just for development but switchable to Redis/Upstache that wi
 ```
 cd backend
 npm install
+nodemon index.js
 ```
 
 
 ```
 cd EcomStore 
 npm install
+npm run dev
+Go to http://localhost:5173/
 ```
 
-## Features
 
+
+## Features
+![image](https://github.com/soleq1/TimeShot/assets/103675652/6f8855cb-fb46-4417-933e-c94b6a3b3c03)
 - User authentication: Allow users to sign up, log in.
 - Product listing: Display a list of products with details such as name, image, and price.
 - Shopping cart: Allow users to add products to a shopping cart and proceed to checkout.
 - Order management: Allow users to view and manage their orders.
 - Admin dashboard: Provide an admin dashboard to easily post new products.
 - Persistent data: Store data in a MongoDB database and utilize local storage for user sessions.
-
-## Installation
-
-1. Clone the repository:
- 
-
-6. Access the application at http://localhost:3000.
+- Carousel.
+![image](https://github.com/soleq1/TimeShot/assets/103675652/9da1b2ed-868d-4556-afbc-1ee5a17b5110)
 
 ## Technologies Used
 
