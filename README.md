@@ -21,7 +21,7 @@ npm install
 npm run dev
 Go to http://localhost:5173/
 ```
-
+Then from there you can add your own .env to have the Mongodb/Redis urls setup and add really whatever product type.
 
 
 ## Features
